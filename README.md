@@ -19,12 +19,13 @@ def add(x, y):
 add_result = add(5,10)
 print(add_result)
 
+# This is a comment 
 def square(x):
     return x * x
 
+# Hey, Amir
 result = square(5)
 print(result)
-
 
 ```
 
@@ -75,3 +76,7 @@ Token(LEFT_PAREN, ()
 Token(IDENTIFIER, result)
 Token(RIGHT_PAREN, ))
 ```
+As shown in the output, the result shows that:
+1. Comments were ignored
+2. All the keywords have been recognized
+3. Whitespaces were also ignored 
